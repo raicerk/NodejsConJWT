@@ -1,0 +1,27 @@
+{
+  "name": "nodejsconjwt",
+  "version": "1.0.0",
+  "description": "Aplicación para aprender el uso de una api con nodejs y la utilización de autentificacion basada en token",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raicerk/NodejsConJWT.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "api",
+    "APIREST",
+    "jwt",
+    "jsonwebtoken"
+  ],
+  "author": "Juan Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raicerk/NodejsConJWT/issues"
+  },
+  "homepage": "https://github.com/raicerk/NodejsConJWT#readme"
+}

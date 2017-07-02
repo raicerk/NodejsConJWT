@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/raicerk/NodejsConJWT/issues"
   },
-  "homepage": "https://github.com/raicerk/NodejsConJWT#readme"
+  "homepage": "https://github.com/raicerk/NodejsConJWT#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "moment": "^2.18.1"
+  }
 }

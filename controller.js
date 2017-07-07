@@ -47,7 +47,7 @@ exports.logear = function(req, res) {
 		console.log(user);
 
 		let token = jwt.sign(user, config.jwt_secreto, {
-			expiresIn: '1m' // expires in 1 hour
+			expiresIn: config.jwt_expiracion // expires in 1 hour
 		});
 
 		res.json({

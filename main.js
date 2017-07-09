@@ -43,10 +43,6 @@ rutas.route('/registrarse')
 rutas.route('/login')
 	.post(ctrl.logear);
 
-rutas.route('/consultas')
-  .post(ctrl.seguridad,ctrl.consulta);
-
-
 app.use(rutas);
 
 // Conexión con la base de datos

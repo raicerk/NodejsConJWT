@@ -43,6 +43,9 @@ rutas.route('/registrarse')
 rutas.route('/login')
 	.post(ctrl.logear);
 
+rutas.route('/consulta')
+	.get(ctrl.seguridad,ctrl.ConsultaDatos);
+
 app.use(rutas);
 
 // Conexión con la base de datos
